@@ -1,62 +1,52 @@
-# 🧠 SARSA Reinforcement Learning - Cliff Walking
+# 🧠 Cliff Walking using Reinforcement Learning
 
-This project implements the **SARSA (State-Action-Reward-State-Action)** algorithm to solve the Cliff Walking environment using **Python** in **JupyterLab**.
+This project implements and compares two Reinforcement Learning algorithms on the Cliff Walking environment.
 
-## 📌 About the Project
+## 🚀 Algorithms Implemented
 
-The objective is to train an agent to reach the goal while avoiding the cliff. The agent learns an optimal policy through trial and error using the SARSA reinforcement learning algorithm.
+- SARSA (On-Policy)
+- Q-Learning (Off-Policy)
 
-## 🚀 Features
+## 📌 Project Overview
 
-- SARSA Reinforcement Learning Algorithm
-- Q-Table Learning
-- Epsilon-Greedy Policy
-- Cliff Walking Environment
-- Implemented in JupyterLab
+The objective is to train an intelligent agent to move from the start state to the goal while avoiding the cliff.
+
+The project compares both algorithms based on:
+
+- Episode Rewards
+- Learning Performance
+- Training Behaviour
 
 ## 🛠️ Technologies Used
 
 - Python
 - NumPy
 - Gymnasium
+- Matplotlib
 - JupyterLab
 
-## 📄 Project File
-
-This repository contains the implementation in:
+## 📂 Files
 
 - `SARSA.ipynb`
+- `Q_Learning.ipynb`
+- `compare.ipynb`
 
-## ▶️ How to Run
+## 📊 Comparison
 
-1. Install the required libraries:
+The comparison notebook includes:
 
-```bash
-pip install gymnasium numpy matplotlib
-```
-
-2. Launch JupyterLab:
-
-```bash
-jupyter lab
-```
-
-3. Open `SARSA.ipynb` and run all the cells.
+- Reward comparison graph
+- Moving average graph
+- Performance statistics
+- Algorithm comparison
 
 ## 📚 Concepts Covered
 
 - Reinforcement Learning
-- SARSA Algorithm
+- SARSA
+- Q-Learning
 - Temporal Difference Learning
-- Q-Learning Concepts
 - Markov Decision Process (MDP)
-
-## 🎯 Future Improvements
-
-- Compare SARSA with Q-Learning
-- Add graphical visualization
-- Train on different environments
-- Optimize hyperparameters
 
 ## 👨‍💻 Author
 
